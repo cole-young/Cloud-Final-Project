@@ -1,0 +1,130 @@
+-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 80px;
+  text-align: left;
+  background: #a6a6a6;
+  color: black;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Column container */
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+
+
+/* Main column */
+.main {   
+
+  flex: 70%;
+  color: white;
+  background-color: #404040;
+  padding: 20px; 
+}
+
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Adeptus Mechanicus</h1>
+  <p>A Brief Rundown.</p>
+</div>
+
+<div class="navbar">
+  <a href="https://coleyoungbucket.s3.amazonaws.com/Main+Page.html">Home</a>
+  <a href="https://coleyoungbucket.s3.amazonaws.com/Astartes.html">Astartes</a>
+  <a href="https://coleyoungbucket.s3.amazonaws.com/Sororitas.html">Sororitas</a>
+  <a href="https://coleyoungbucket.s3.amazonaws.com/Guards.html" class="right">Guard</a>
+</div>
+
+<div class="row">
+  </div>
+  <div class="main">
+    <h2>Overview</h2>
+    <img src="https://www.barreldrill.com/wp-content/uploads/2019/03/warhammer_40K_mechanicus_tactical_rpg_review.jpg">
+    <p>The adeptus Mechanicus is the main advocators for technology out of Humanities factions. These individuals have gone the opposite of the astartes and believe that flesh is weak and should be replaced by technology. Member of the Mechanicus will replace their flesh with tech over time vastly extending their lives and making them extremely deadly. With robotics replacing their body they become smarter stronger and faster than the average human only topped physically by the astartes. These members come equipted with the best armaments man has to offer, energy weapons, plasma weapons, and weapons that tear reality itself apart.</p>
+    <img src="https://i.pinimg.com/736x/bb/1f/28/bb1f280a1c942e38c39cd68850edc956.jpg">
+    <p>The mechanicus was founded just after the golden age of man along side the astartes. These fanatics believed it was mans emotions and illogical behavior that nearly broke humanity and swore they would replace these inferior parts of themselves with the logical machines. Many of the oldest members "the magos" have replaced ever part of themselves except the brain and have improved the brain to the point of being ageless, some even say the oldest are several thousand years old.</p>
+ 
+</div>
+
+<div class="footer">
+<h1>A link to the wiki page for the faction<h1>
+  <h2>https://warhammer40k.fandom.com/wiki/Adeptus_Mechanicus</h2>
+</div>
+
+</body>
+</html>

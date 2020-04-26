@@ -1,0 +1,130 @@
+-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 80px;
+  text-align: left;
+  background: cc3300;
+  color: black;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Column container */
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+
+
+/* Main column */
+.main {   
+
+  flex: 70%;
+  color: white;
+  background-color: #b30000;
+  padding: 20px; 
+}
+
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Adeptus Astartes</h1>
+  <p>A Brief Rundown.</p>
+</div>
+
+<div class="navbar">
+  <a href="https://coleyoungbucket.s3.amazonaws.com/Main+Page.html">Home</a>
+  <a href="https://coleyoungbucket.s3.amazonaws.com/Sororitas.html">Sororitas</a>
+  <a href="https://coleyoungbucket.s3.amazonaws.com/Mechanicus.html">Mechanicus</a>
+  <a href="https://coleyoungbucket.s3.amazonaws.com/Guards.html" class="right">Guard</a>
+</div>
+
+<div class="row">
+  </div>
+  <div class="main">
+    <h2>Overview</h2>
+    <img src="https://cg3.cgsociety.org/uploads/images/medium/mironov81-adeptus-astartes-war-1-4cb4322f-gmt2.jpg" width="1200" height="840">
+    <p>The adeptus astartes or otherwise known as space marines are humanities most powerful wariors. In the grim darkness of the 41st millenium of mankind paltry concepts such as morality and ethics are no longer the first concern for the imperium. The space marines are born from this lack of morality taken in as children and efffectively tortured they have 18 additional organs implanted within them and such things as painkillers or anesthetic are deemed as non essential. These tortured souls also recieve some of the best and most brutal training mankind has to offer. These 8 foot tall super soldiers decked out in power armor and armed with bolt guns (imagine an automatic rocket launcher) form the elites of mankinds core.</p>
+    <img src="https://i.pinimg.com/originals/3b/70/c5/3b70c5e7a016a96a00c760d2aaad0297.jpg">
+    <p>These super soldiers only weakness is there numbers. When mankind first introduced astartes they had 20 legions of them with millions per legion. Sadly half of these legions rebelled against the emperor of mankind and it was quickly decided that these legions would be split into chapters and each chapter would hold 1000 astartes forever limiting their ability to overthrow the imperium should they ever rebel again.</p>
+ 
+</div>
+
+<div class="footer">
+<h1>A link to the wiki page for the faction<h1>
+  <h2>https://warhammer40k.fandom.com/wiki/Space_Marines</h2>
+</div>
+
+</body>
+</html>

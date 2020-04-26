@@ -1,0 +1,130 @@
+-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 80px;
+  text-align: left;
+  background: #ff9900;
+  color: black;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Column container */
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+
+
+/* Main column */
+.main {   
+
+  flex: 70%;
+  color: black;
+  background-color: #cc6600;
+  padding: 20px; 
+}
+
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Imperial Guard</h1>
+  <p>A Brief Rundown.</p>
+</div>
+
+<div class="navbar">
+  <a href="https://coleyoungbucket.s3.amazonaws.com/Main+Page.html">Home</a>
+  <a href="https://coleyoungbucket.s3.amazonaws.com/Astartes.html">Astartes</a>
+  <a href="https://coleyoungbucket.s3.amazonaws.com/Sororitas.html">Sororitas</a>
+  <a href="https://coleyoungbucket.s3.amazonaws.com/Mechanicus.html" class="right">Mechanicus</a>
+</div>
+
+<div class="row">
+  </div>
+  <div class="main">
+    <h2>Overview</h2>
+    <img src="https://comicvine1.cbsistatic.com/uploads/original/11/113883/2570733-c282d6d59bbd38360016d6b829d01b0c.jpg">
+    <p>The imperial guard otherwise known as the astra militarum is the first line of defence. Everything that this universe or any other sends at humanity must first break the imperial guard. These men and woman of the imperium lack all that make the other factions special, they lack the space marines biologic enhancements, they lack the soroitas' holy vigor, and they lack the technology of the mechanicus. No these soldiers of the imperium have two answers to the defence of mankind: 1 stubborness, the willpower of the guard can be downright absurd at times (and incredibly frail at others) when the realization that everything they are fighting is stronger meaner and tougher some guards lose their nurve, but a majority instead scream out in denial and go down killing; and 2 sheer numbers for every space marine their may as well be a billion guardsmen all holding the line to the last. </p>
+    <img src="http://img3.wikia.nocookie.net/__cb20140509184442/warhammer40k/images/c/cb/Ecclesiarchy_Priest_Cadians.jpg">
+    <p>There are so many guardsmen that the administration cannot keep up with their numbers so it will never be known how many their actually are. Every day thousands upon tens-of-thousands of soldiers get recruited/drafted into the guard and everyday just as many die. A guardsmens sole duty is to die for the imperium for once drafted almost none return home.</p>
+ 
+</div>
+
+<div class="footer">
+  <h1>A link to the wiki page for the faction<h1>
+  <h2>https://warhammer40k.fandom.com/wiki/Astra_Militarum</h2>
+</div>
+
+</body>
+</html>

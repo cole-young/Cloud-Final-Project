@@ -1,0 +1,130 @@
+-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 80px;
+  text-align: left;
+  background: #ff0000;
+  color: black;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Column container */
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+
+
+/* Main column */
+.main {   
+
+  flex: 70%;
+  color: black;
+  background-color: #ffffff;
+  padding: 20px; 
+}
+
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Adeptus Sororitas</h1>
+  <p>A Brief Rundown.</p>
+</div>
+
+<div class="navbar">
+  <a href="https://coleyoungbucket.s3.amazonaws.com/Main+Page.html">Home</a>
+  <a href="https://coleyoungbucket.s3.amazonaws.com/Astartes.html">Astartes</a>
+  <a href="https://coleyoungbucket.s3.amazonaws.com/Mechanicus.html">Mechanicus</a>
+  <a href="https://coleyoungbucket.s3.amazonaws.com/Guards.html" class="right">Guard</a>
+</div>
+
+<div class="row">
+  </div>
+  <div class="main">
+    <h2>Overview</h2>
+    <img src="http://4.bp.blogspot.com/-S3US821p8xQ/TgMApB-xkMI/AAAAAAAAAs4/uQvoOraF0xU/s1600/Sister_of_Battle+%25281%2529.jpg">
+    <p>The adeptis Sororatas serve the ecclesiarchy or the church of the imperium of man as an all female fighting force. Lacking in the genetic modifications of the astartes or the numbers of the guard or the technology of the mechanicus the sororitas rely on religeous fervor instead, able to chanel their holy rage into an actual physical effect surviving mortal wounds and performing feats akin to miracles. Decked out in power armor and armed with boltguns both of which are not as powerful as the astartes version these sisters of battle march out with undying faith ready to purge all that stand in the emperors path.</p>
+    <img src="http://www.brueckenkopf-online.com/wp-content/uploads/2019/10/Games-Workshop_Battle-Sister-Bulletin-–-Part-19-Cherubs-3.jpg">
+    <p>The ecclesiarchy used to own its own standing army after the space marines were seperated into chapters but soon after they also revolted against the imperium and threw it into chaos. After their defeat by the imperium it was agreed that the ecclesiarchy would no longer be allowed to have "men at arms". So of course directly afterwards the church created the Adeptis Sororitas.</p>
+ 
+</div>
+
+<div class="footer">
+<h1>A link to the wiki page for the faction<h1>
+  <h2>https://warhammer40k.fandom.com/wiki/Adepta_Sororitas</h2>
+</div>
+
+</body>
+</html>
